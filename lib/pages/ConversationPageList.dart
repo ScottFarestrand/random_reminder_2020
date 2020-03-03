@@ -13,7 +13,7 @@ class _ConversationPageListState extends State<ConversationPageList> {
     return PageView(
       children: <Widget>[
         ConversationPage(),
-//        ConversationPage(),
+        ConversationPage(),
         ConversationPage()
       ],
     );
