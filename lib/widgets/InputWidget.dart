@@ -20,7 +20,7 @@ class InputWidget extends StatelessWidget {
                 color: Palette.primaryColor,
               ),
             ),
-            color: Colors.blue,
+            color: Colors.white,
           ),
 
           // Text input
