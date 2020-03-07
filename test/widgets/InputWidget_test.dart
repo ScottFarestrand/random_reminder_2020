@@ -10,7 +10,7 @@ void main() {
     // Build our app and trigger a frame.
     await tester.pumpWidget(app);
 
-    expect(find.byType(IconButton), findsNWidgets(1));
+    expect(find.byType(IconButton), findsNWidgets(2));
     expect(find.byType(EditableText), findsOneWidget);
   });
 }
