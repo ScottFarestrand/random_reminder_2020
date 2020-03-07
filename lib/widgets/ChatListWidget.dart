@@ -7,13 +7,12 @@ class ChatListWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return Flexible(
-        child: ListView.builder(
+    return ListView.builder(
       padding: EdgeInsets.all(10.0),
       itemBuilder: (context, index) => ChatItemWidget(index),
       itemCount: 8,
       reverse: true,
       controller: listScrollController,
-    ));
+    );
   }
 }
