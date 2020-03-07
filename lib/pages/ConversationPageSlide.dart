@@ -4,7 +4,6 @@ import 'package:rubber/rubber.dart';
 import 'ConversationBottomSheet.dart';
 import 'ConversationPage.dart';
 
-
 class ConversationPageSlide extends StatefulWidget {
   @override
   _ConversationPageSlideState createState() => _ConversationPageSlideState();
