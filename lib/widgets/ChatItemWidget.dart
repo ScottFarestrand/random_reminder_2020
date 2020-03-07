@@ -5,9 +5,7 @@ import 'package:messio/config/Styles.dart';
 
 class ChatItemWidget extends StatelessWidget {
   final int index;
-
   const ChatItemWidget(this.index);
-
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
