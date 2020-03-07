@@ -1,6 +1,6 @@
 # messio
 
-A new Flutter application.
+Chat App Tutorial
 
 ## Getting Started
 
