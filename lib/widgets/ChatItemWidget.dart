@@ -36,8 +36,7 @@ class ChatItemWidget extends StatelessWidget {
         Row(mainAxisAlignment: MainAxisAlignment.end, children: <Widget>[
           Container(
             child: Text(
-              DateFormat('dd MMM kk:mm')
-                  .format(DateTime.fromMillisecondsSinceEpoch(1565888474278)),
+              DateFormat('dd MMM kk:mm').format(DateTime.now()),
               style: Styles.date,
             ),
             margin: EdgeInsets.only(left: 5.0, top: 5.0, bottom: 5.0),
@@ -67,8 +66,7 @@ class ChatItemWidget extends StatelessWidget {
             ),
             Container(
               child: Text(
-                DateFormat('dd MMM kk:mm')
-                    .format(DateTime.fromMillisecondsSinceEpoch(1565888474278)),
+                DateFormat('dd MMM kk:mm').format(DateTime.now()),
                 style: Styles.date,
               ),
               margin: EdgeInsets.only(left: 5.0, top: 5.0, bottom: 5.0),
